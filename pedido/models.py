@@ -1,5 +1,4 @@
 from django.db import models
-from django.db import models
 from cliente.models import Cliente
 from produto.models import Produto  # Se necessário
 
