@@ -23,22 +23,28 @@
                     <label for="nome">Nome</label>
                     <input type="text" class="form-control" placeholder="Digite o Nome" name="nome">
                   </div>
+
                   <div class="mb-3">
                       <label for="telefone">Telefone</label>
-                    <input type="text"class="form-control" placeholder="Digite o telefone" name="telefone">
+                    <input type="text" class="form-control" placeholder="Digite o telefone" name="telefone">
                   </div>
+
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" name="email" placeholder="Digite seu email">
                 </div>
+
                 <div class="mb-3">
                     <label for="senha" class="form-label">Senha</label>
                     <input type="password" class="form-control" name="senha" placeholder="Digite sua senha">
                 </div>
+
                 <div class="text-end">
                     <a href="#" class="forgot-link">Esqueci minha senha</a>
                 </div>
+
                 <button type="submit" class="btn-login">Enviar</button>
+
             </form>
             <div class="signup-link">
                 <a href="{% url 'flogcliente' %}">Já tenho uma conta</a>
